@@ -1,0 +1,7 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4cd565ac_002Da9ee_002D42ac_002D8f1a_002D941e82616fb6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from EstoqueServiceTeste.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;ProjectFile&gt;61F3CF1E-BB72-4716-8A72-3515EA6DA0E6/d:Estoque.Testes/d:Services/f:EstoqueServiceTeste.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;61F3CF1E-BB72-4716-8A72-3515EA6DA0E6/d:Estoque.Testes/d:Controllers/f:EstoqueControllerTeste.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

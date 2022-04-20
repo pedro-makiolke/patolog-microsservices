@@ -1,0 +1,6 @@
+C:\Fontes\.NET MICROSSERVICES\Gateway\obj\Debug\net5.0\Gateway.csproj.AssemblyReference.cache
+C:\Fontes\.NET MICROSSERVICES\Gateway\obj\Debug\net5.0\Gateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Fontes\.NET MICROSSERVICES\Gateway\obj\Debug\net5.0\Gateway.AssemblyInfoInputs.cache
+C:\Fontes\.NET MICROSSERVICES\Gateway\obj\Debug\net5.0\Gateway.AssemblyInfo.cs
+C:\Fontes\.NET MICROSSERVICES\Gateway\obj\Debug\net5.0\Gateway.csproj.CoreCompileInputs.cache
+C:\Fontes\.NET MICROSSERVICES\Gateway\obj\Debug\net5.0\Gateway.MvcApplicationPartsAssemblyInfo.cache
