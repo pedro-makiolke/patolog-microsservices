@@ -31,7 +31,7 @@ namespace Produto.Controllers
         }
 
         [HttpGet]
-        [Route("/{uuid:string}")]
+        [Route("/{uuid}")]
         public IActionResult GetByUuid(string uuid)
         {
             try

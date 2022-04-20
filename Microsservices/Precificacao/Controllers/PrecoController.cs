@@ -31,7 +31,7 @@ namespace Precificacao.Controllers
             }
         }
 
-        [Route("/{uuid:string}")]
+        [Route("/{uuid}")]
         [HttpGet]
         public IActionResult GetByUuid(string uuid)
         {

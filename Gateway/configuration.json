@@ -1,0 +1,83 @@
+﻿{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/v1/produto",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7000
+        }
+      ],
+      "UpstreamPathTemplate": "/produto/",
+      "UpstreamHttpMethod": ["Get", "Post", "Put", "Delete", "Options"]
+    },
+    {
+      "DownstreamPathTemplate": "/v1/produto/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7000
+        }
+      ],
+      "UpstreamPathTemplate": "/produto/{everything}",
+      "UpstreamHttpMethod": ["Get", "Post", "Put", "Delete", "Options"]
+    },
+    {
+      "DownstreamPathTemplate": "/v1/estoque/",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8000
+        }
+      ],
+      "UpstreamPathTemplate": "/estoque/",
+      "UpstreamHttpMethod": ["Get", "Post", "Put", "Delete", "Options"]
+    },
+    {
+      "DownstreamPathTemplate": "v1/estoque/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8000
+        }
+      ],
+      "UpstreamPathTemplate": "/estoque/{everything}",
+      "UpstreamHttpMethod": ["Get", "Post", "Put", "Delete", "Options"]
+    },
+    {
+      "DownstreamPathTemplate": "/v1/preco/",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9000
+        }
+      ],
+      "UpstreamPathTemplate": "/preco/",
+      "UpstreamHttpMethod": ["Get", "Post", "Put", "Delete", "Options"]
+    },
+    {
+      "DownstreamPathTemplate": "v1/preco/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9000
+        }
+      ],
+      "UpstreamPathTemplate": "/preco/{everything}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post",
+        "Put",
+        "Delete",
+        "Options"
+      ]
+    }
+  ],
+  "GlobalConfiguration": {}
+}

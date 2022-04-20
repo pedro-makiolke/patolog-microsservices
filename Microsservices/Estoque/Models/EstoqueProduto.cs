@@ -6,8 +6,8 @@ namespace Estoque.Models
     public class EstoqueProduto
     {
         public string Uuid { get; set; }
-        private string Cd { get; set; }
-        private decimal Quantidade { get; set; }
+        public string Cd { get; set; }
+        public decimal Quantidade { get; set; }
         public decimal Reservado { get; set; }
 
         public IEnumerable<EstoqueProduto> GetMock()

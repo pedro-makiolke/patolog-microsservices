@@ -9,7 +9,12 @@ namespace Estoque.Controllers
     public class EstoqueController : ControllerBase
     {
         private readonly IEstoqueService _estoqueService;
-        
+
+        public EstoqueController(IEstoqueService estoqueService)
+        {
+            _estoqueService = estoqueService;
+        }
+
         [HttpGet]
         [Route("")]
         public IActionResult GetAll()
@@ -27,11 +32,16 @@ namespace Estoque.Controllers
         }
 
         [HttpGet]
-        [Route("/{uuid:string}")]
+        [Route("/{uuid}")]
         public IActionResult GetById(string uuid)
         {
             try
             {
+                if (uuid == null)
+                {
+                    return BadRequest();
+                };
+
                 var estoque = _estoqueService.BuscarEstoquePorUuid(uuid);
 
                 if (estoque == null)
@@ -39,7 +49,7 @@ namespace Estoque.Controllers
                     return NotFound();
                 }
 
-                return Ok();
+                return Ok(estoque);
             }
             catch (Exception ex)
             {
